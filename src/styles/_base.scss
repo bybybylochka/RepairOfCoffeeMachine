@@ -1,0 +1,38 @@
+* {
+  font-family: 'Comfortaa', Verdana, sans-serif;
+  color: $text-color;
+  @include font(2rem);
+}
+
+body {
+  background-color: $background-color;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.wrapper{
+  max-width: 1300px;
+  margin: auto;
+}
+.button{
+  border: none;
+  border-radius: 7px;
+  padding: 16px 28px;
+  box-shadow: 0 2px 3px 0 rgba(16, 24, 40, 0.1);
+  @include font(2rem);
+  cursor: pointer;
+  background-color: $background-color-dark;
+  color: $text-color-light;
+}
+input, select{
+  padding: 10px;
+  border: $card-color 2px solid;
+}
+label{
+  display: block;
+}

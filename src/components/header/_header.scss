@@ -1,0 +1,15 @@
+.logo h1{
+  @include font($size: 3rem, $weight: 600);
+}
+.navigation{
+  display: flex;
+  gap: 20px;
+  *:hover{
+    font-weight: 800;
+  }
+}
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
